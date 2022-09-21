@@ -1,0 +1,78 @@
+/* ====================================
+General Styles
+===================================== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+/* ====================================
+Navigation Bar
+===================================== */
+
+.navbar{
+    background: rgba(0,0,0,0.2);
+}
+
+.dropdown li:hover a{
+    color: #DC3545;
+}
+
+.navbar-brand{
+    font-size: 25px!important;
+}
+
+@media (max-width: 380px) {
+    .navbar-brand{
+        font-size: 17px!important;
+    }
+}
+
+
+/* ====================================
+Hero Section
+===================================== */
+
+.hero{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../img/homebg.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/* ====================================
+Know Before You Go Section
+===================================== */
+
+.kbyg{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../img/kbyg.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.kbyg .container-lg h1{
+    font-size: 60px;
+    color: #fff;
+}
+
+p{
+    font-size: 25px;
+    color: #fff;
+}
+
+
+
+
+/* ====================================
+footer
+===================================== */
+
+footer{
+    background-color: rgba(0,0,0,0.8);
+}
