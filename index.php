@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>LogIn</title>
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/login.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+	<div class="screen">
+		<div class="screen__content">
+			<form class="login" action="" onsubmit="return validate()">
+				<div class="login__field">
+					<i class="login__icon fas fa-user"></i>
+					<input type="text" id="email" class="login__input" placeholder="Email" validate>
+					<p class="emailmsg"></p>
+				</div>
+				<div class="login__field">
+					<i class="login__icon fas fa-lock"></i>
+					<input type="password" id="pass" class="login__input" placeholder="Password">
+					<p class="passmsg"></p>
+				</div>
+				<button id="login" class="button login__submit">
+					<span class="button__text">Log In Now</span>
+					<i class="button__icon fas fa-chevron-right"></i>
+				</button>				
+				<button id="continue" class="button login__submit">
+					<span class="button__text"><a href="main.php">Continue</a></span>
+					<i class="button__icon fas fa-chevron-right"></i>
+				</button>				
+			</form>
+		</div>
+		<div class="screen__background">
+			<span class="screen__background__shape screen__background__shape4"></span>
+			<span class="screen__background__shape screen__background__shape3"></span>		
+			<span class="screen__background__shape screen__background__shape2"></span>
+			<span class="screen__background__shape screen__background__shape1"></span>
+		</div>		
+	</div>
+</div>
+<!-- partial -->
+  
+<script src="js/bootstrap.js"></script>
+<script src="js/login.js"></script>
+</body>
+</html>
